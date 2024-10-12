@@ -2,15 +2,15 @@
     "providers": [
 	    {
 			"type": "bitmap", 
-			"file": "minecraft:gui/pixel.png",
+			"file": "minecraft:gui/custom/pixel.png",
 			"ascent": -2000,
 			"height": -3,
 			"chars": ["七"]
 		},
-		
+        
 		{
             "type": "bitmap",
-            "file": "minecraft:gui/solaria/generic_27_solaria.png",
+            "file": "minecraft:gui/custom/solaria/generic_27_solaria.png",
             "ascent": 25,
             "height": 256,
             "chars": ["㊰"]
@@ -18,7 +18,7 @@
 		
         {
             "type": "bitmap",
-            "file": "minecraft:gui/solaria/generic_54_solaria.png",
+            "file": "minecraft:gui/custom/solaria/generic_54_solaria.png",
             "ascent": 25,
             "height": 256,
             "chars": ["ㇺ"]
@@ -26,7 +26,7 @@
 		
         {
             "type": "bitmap",
-            "file": "minecraft:gui/solaria/book_solaria.png",
+            "file": "minecraft:gui/custom/solaria/book_solaria.png",
             "ascent": 37,
             "height": 256,
             "chars": ["\uEff4"]
