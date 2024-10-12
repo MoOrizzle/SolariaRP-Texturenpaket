@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+	"overrides": [
+		{ "predicate": { "custom_model_data":1 }, "model": "item/drinks/beer" },
+		{ "predicate": { "custom_model_data":2 }, "model": "item/drinks/wine" },
+		{ "predicate": { "custom_model_data":3 }, "model": "item/drinks/coffee" },
+		{ "predicate": { "custom_model_data":101 }, "model": "item/drinks/tea_jasmin" },
+		{ "predicate": { "custom_model_data":102 }, "model": "item/drinks/tea_camomile" },
+		{ "predicate": { "custom_model_data":103 }, "model": "item/drinks/tea_cherry" },
+		{ "predicate": { "custom_model_data":104 }, "model": "item/drinks/tea_green" }
+	]
+}
