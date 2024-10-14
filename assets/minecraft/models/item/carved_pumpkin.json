@@ -5,6 +5,7 @@
 	},
 	"overrides": [
 		{ "predicate": { "custom_model_data": 19151201 }, "model": "optifine/cit/hats/devil_horns/devil_horns" },
-		{ "predicate": { "custom_model_data": 19151202 }, "model": "optifine/cit/hats/witch_hat/witch_hat" }
+		{ "predicate": { "custom_model_data": 19151202 }, "model": "optifine/cit/hats/witch_hat/witch_hat" },
+		{ "predicate": { "custom_model_data": 19151203 }, "model": "optifine/cit/hats/crown/crown" }
 	]
 }
