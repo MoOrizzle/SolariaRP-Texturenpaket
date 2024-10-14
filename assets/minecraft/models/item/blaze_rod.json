@@ -4,6 +4,6 @@
 		"layer0": "item/blaze_rod"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data":1 }, "model": "item/blaze_rod/scepter" }
+		{ "predicate": { "custom_model_data": 19151201 }, "model": "solaria:item/scepter" }
 	]
 }

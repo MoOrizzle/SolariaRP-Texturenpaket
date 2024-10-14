@@ -5,13 +5,13 @@
     	"layer1": "item/potion"
   	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/drinks/beer" },
-		{ "predicate": { "custom_model_data": 2 }, "model": "item/drinks/wine" },
-		{ "predicate": { "custom_model_data": 3 }, "model": "item/drinks/coffee" },
-		{ "predicate": { "custom_model_data": 101 }, "model": "item/drinks/tea_jasmin" },
-		{ "predicate": { "custom_model_data": 102 }, "model": "item/drinks/tea_camomile" },
-		{ "predicate": { "custom_model_data": 103 }, "model": "item/drinks/tea_cherry" },
-		{ "predicate": { "custom_model_data": 104 }, "model": "item/drinks/tea_green" },
-		{ "predicate": { "custom_model_data": 201 }, "model": "item/drinks/jug" }
+		{ "predicate": { "custom_model_data": 19151201 }, "model": "solaria:item/drinks/beer" },
+		{ "predicate": { "custom_model_data": 19151202 }, "model": "solaria:item/drinks/wine" },
+		{ "predicate": { "custom_model_data": 19151203 }, "model": "solaria:item/drinks/coffee" },
+		{ "predicate": { "custom_model_data": 19151204 }, "model": "solaria:item/drinks/tea_jasmin" },
+		{ "predicate": { "custom_model_data": 19151205 }, "model": "solaria:item/drinks/tea_camomile" },
+		{ "predicate": { "custom_model_data": 19151206 }, "model": "solaria:item/drinks/tea_cherry" },
+		{ "predicate": { "custom_model_data": 19151207 }, "model": "solaria:item/drinks/tea_green" },
+		{ "predicate": { "custom_model_data": 19151208 }, "model": "solaria:item/drinks/jug" }
 	]
 }

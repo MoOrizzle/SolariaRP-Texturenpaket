@@ -4,7 +4,7 @@
 		"layer0": "item/popped_chorus_fruit"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/currency/copper" },
-		{ "predicate": { "custom_model_data": 2 }, "model": "item/currency/silver" }
+		{ "predicate": { "custom_model_data": 19151201 }, "model": "solaria:item/currency/copper" },
+		{ "predicate": { "custom_model_data": 19151202 }, "model": "solaria:item/currency/silver" }
 	]
 }

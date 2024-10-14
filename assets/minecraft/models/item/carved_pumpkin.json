@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carved_pumpkin"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 19151201 }, "model": "optifine/cit/hats/devil_horns/devil_horns" },
+		{ "predicate": { "custom_model_data": 19151202 }, "model": "optifine/cit/hats/witch_hat/witch_hat" }
+	]
+}

@@ -1,0 +1,35 @@
+{
+    "providers": [
+	    {
+			"type": "bitmap", 
+			"file": "solaria:gui/pixel.png",
+			"ascent": -2000,
+			"height": -3,
+			"chars": ["七"]
+		},
+        
+		{
+            "type": "bitmap",
+            "file": "solaria:gui/solaria/generic_27_solaria.png",
+            "ascent": 25,
+            "height": 256,
+            "chars": ["㊰"]
+        },
+		
+        {
+            "type": "bitmap",
+            "file": "solaria:gui/solaria/generic_54_solaria.png",
+            "ascent": 25,
+            "height": 256,
+            "chars": ["ㇺ"]
+        },
+		
+        {
+            "type": "bitmap",
+            "file": "solaria:gui/solaria/book_solaria.png",
+            "ascent": 37,
+            "height": 256,
+            "chars": ["\uEff4"]
+        }
+    ]
+}

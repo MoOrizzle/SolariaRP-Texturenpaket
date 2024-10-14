@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/currency/silver"
+		"layer0": "solaria:item/currency/silver"
 	}
 }
