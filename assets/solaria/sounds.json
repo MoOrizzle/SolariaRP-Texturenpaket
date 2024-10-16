@@ -1,0 +1,9 @@
+{
+	"voices.test": {
+		"sounds": [
+			{ 
+				"name": "solaria:voice_lines/waltz" 
+			}
+		]
+    }
+}
