@@ -17,7 +17,7 @@ jobs:
 
       - name: "Read VERSION file"
         id: getversion
-        run: echo "::set-output name=version::§(cat VERSION)"
+        run: echo "version=§(cat VERSION)" >> $GITHUB_OUTPUT
       
       - name: "zip texture pack"
         uses: vimtor/action-zip@v1.2
