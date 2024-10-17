@@ -1,0 +1,28 @@
+name: "auto releases"
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  zip-and-release:
+    name: "Zip and pre-release"
+    runs-on: "ubuntu-latest"  
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: vimtor/action-zip@v1.2
+        with:
+          files: pack.png pack.mcmeta assets
+          recursive: false
+          dest: solariarp-resourcepack.zip
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: solariarp-resourcepack.zip
