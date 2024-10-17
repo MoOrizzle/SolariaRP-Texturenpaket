@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/quartz_slab",
+	"overrides": [
+		{ "predicate": { "custom_model_data": 19151201 }, "model": "solaria:block/tableware/plate" }
+	]
+}
