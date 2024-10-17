@@ -7,22 +7,30 @@ on:
 
 jobs:
   zip-and-release:
-    name: "Zip and pre-release"
+    name: "zip and pre-release"
     runs-on: "ubuntu-latest"  
 
     steps:
-      - uses: actions/checkout@v4
+
+      - name: "Checkout source code" 
+        uses: actions/checkout@v4
+
+      - name: "Read VERSION file"
+        id: getversion
+        run: echo "::set-output name=version::§(cat VERSION)"
       
-      - uses: vimtor/action-zip@v1.2
+      - name: "zip texture pack"
+        uses: vimtor/action-zip@v1.2
         with:
           files: pack.png pack.mcmeta assets
           recursive: false
           dest: solariarp-resourcepack.zip
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - name: "auto release"
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
+          prerelease: false
+          automatic_release_tag: "v${{ steps.getversion.outputs.version }}"
+          title: "Release ${{ steps.getversion.outputs.version }}"
           files: solariarp-resourcepack.zip
