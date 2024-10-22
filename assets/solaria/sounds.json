@@ -1,16 +1,49 @@
 {
-	"voices.test": {
-		"sounds": [
-			{ 
-				"name": "solaria:voice_lines/waltz" 
-			}
-		]
-    },
 
 	"ambient.solaria_village": {
 		"sounds": [
 			{
 				"name": "solaria:ambient_environment/solaria_village"
+			}
+		]
+	},
+
+	"ambient.solaria_harbor": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/solaria_harbor"
+			}
+		]
+	},
+
+	"ambient.solaria_taverne": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/solaria_taverne"
+			}
+		]
+	},
+
+	"ambient.orion_village": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/orion_village"
+			}
+		]
+	},
+
+	"ambient.forest": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/forest"
+			}
+		]
+	},
+
+	"ambient.lavender_field": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/lavender_field"
 			}
 		]
 	}
