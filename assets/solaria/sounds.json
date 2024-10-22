@@ -5,5 +5,14 @@
 				"name": "solaria:voice_lines/waltz" 
 			}
 		]
-    }
+    },
+
+	"ambient.solaria_village": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/solaria_village"
+			}
+		]
+	}
+
 }
