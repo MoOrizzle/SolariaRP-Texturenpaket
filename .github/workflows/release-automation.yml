@@ -26,6 +26,9 @@ jobs:
           recursive: false
           dest: solariarp-resourcepack.zip
 
+      - name: "generate SHA1 hash"
+        run: sha1sum solariarp-resourcepack.zip > sha1.txt
+
       - name: "auto release"
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -33,4 +36,6 @@ jobs:
           prerelease: false
           automatic_release_tag: "v${{ steps.getversion.outputs.version }}"
           title: "Release ${{ steps.getversion.outputs.version }}"
-          files: solariarp-resourcepack.zip
+          files: |
+            solariarp-resourcepack.zip
+            sha1.txt
