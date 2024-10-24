@@ -8,6 +8,14 @@
 		]
 	},
 
+	"music.solaria_castle": {
+		"sounds": [
+			{
+				"name": "solaria:music/solaria_castle"
+			}
+		]
+	},
+
 	"ambient.solaria_harbor": {
 		"sounds": [
 			{
@@ -28,6 +36,14 @@
 		"sounds": [
 			{
 				"name": "solaria:ambient_environment/orion_village"
+			}
+		]
+	},
+
+	"ambient.lunaris_temple": {
+		"sounds": [
+			{
+				"name": "solaria:ambient_environment/lunaris_temple"
 			}
 		]
 	},
